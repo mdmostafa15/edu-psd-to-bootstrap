@@ -1,0 +1,115 @@
+/*// custom midea small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 320px) {
+    .custom_brand {
+        width: 70%;
+    }
+    .custom_menu {
+        left: -20px;
+    }
+
+    .common_title hr {
+        width: 50%;
+    }
+    
+    .t_icon {
+        padding-top: 15px;
+    }
+    .t_border_bottom {
+        padding-top: 15px;
+    }
+
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width:321px) and (max-width: 575.98px) {
+
+    .custom_menu {
+        left: -20px;
+    }
+
+    .common_title hr {
+        width: 50%;
+    }
+
+    .t_icon {
+        padding-top: 15px;
+    }
+    .t_border_bottom {
+        padding-top: 15px;
+    }
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .custom_menu {
+        left: -20px;
+    }
+    .t_icon {
+        padding-top: 15px;
+    }
+    .t_border_bottom {
+        padding-top: 15px;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .custom_navbar {
+        font-size: 13px;
+    }
+    .custom_brand {
+        width: 21%;
+    }
+    .custom_menu {
+        left: -115px;
+    }
+    .common_title hr {
+        width: 33%;
+    }
+
+    .t_icon {
+        padding-top: 15px;
+    }
+    .t_border_bottom {
+        padding-top: 15px;
+    }
+
+    .custom_navbar ul li a {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .custom_navbar ul li a {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .custom_img_width {
+        width: 80%;
+    }
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    .t_icon {
+        padding-top: 15px;
+    }
+    .t_border_bottom {
+        padding-top: 15px;
+    }
+}
